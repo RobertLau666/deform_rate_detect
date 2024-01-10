@@ -1,0 +1,16 @@
+{
+    "probs_face_deformation": 0.12257492542266846,
+    "probs_hair_deformation": -1,
+    "probs_eyes_deformation": -1,
+    "probs_ear_deformation": -1,
+    "probs_upperbody_deformation": 0.956460177898407,
+    "probs_lowerbody_deformation": 0.05889710411429405,
+    "probs_hand_deformation": -1,
+    "probs_action_deformation": 6.108186062192544e-05,
+    "probs_clothing_and_accessories": -1,
+    "probs_watermarks": -1,
+    "probs_black_white_borders": -1,
+    "probs_solid_color_background": -1,
+    "probs_global_image_deformation": -1,
+    "final_score": -0.6276816457031891
+}
