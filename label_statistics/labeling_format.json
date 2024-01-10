@@ -1,0 +1,111 @@
+{
+    "Is the face deformed?": {
+        "normal_face": 0,
+        "deformed_face": 0,
+        "no_face_exist": 0
+    },
+    "the type of deformation (face)": {
+        "proportional_errors": 0,
+        "asymmetrical_features": 0,
+        "inconsistent_skin_tone": 0
+    },
+    "Is the hair deformed?": {
+        "normal_hair": 0,
+        "deformed_hair": 0,
+        "no_hair_exist": 0
+    },
+    "the type of deformation (hair)": {
+        "unnaturally_hair_strands": 0,
+        "inconsistent_hair_color": 0,
+        "hair_merging": 0
+    },
+    "Is the eyebrow deformed?": {
+        "normal_eyebrow": 0,
+        "deformed_eyebrow": 0,
+        "no_eyebrow_exist": 0
+    },
+    "the type of deformation (eyebrow)": {
+        "asymmetrical_eyebrows": 0,
+        "placement_errors": 0,
+        "eyebrow_merging": 0,
+        "unnatural_shapes": 0
+    },
+    "Is the eyes deformed?": {
+        "normal_eyes": 0,
+        "deformed_eyes": 0,
+        "no_eyes_exist": 0
+    },
+    "the type of deformation (eyes)": {
+        "skewed_iris_and_pupils": 0,
+        "asymmetrical_eyes": 0,
+        "misproportion": 0,
+        "inappropriate_eyelids": 0
+    },
+    "Is the nose deformed?": {
+        "normal_nose": 0,
+        "deformed_nose": 0,
+        "no_nose_exist": 0
+    },
+    "Is the mouth deformed?": {
+        "normal_mouth": 0,
+        "deformed_mouth": 0,
+        "no_mouth_exist": 0
+    },
+    "Is the ear deformed?": {
+        "normal_ear": 0,
+        "deformed_ear": 0,
+        "no_ear_exist": 0
+    },
+    "the type of deformation (ear)": {
+        "placement_errors": 0,
+        "lack_of_antihelix_detail": 0,
+        "inconsistent_styles": 0,
+        "proportion_problems": 0
+    },
+    "Is the upperbody deformed?": {
+        "normal_upperbody": 0,
+        "deformed_upperbody": 0,
+        "no_upperbody_exist": 0
+    },
+    "the type of deformation (upperbody)": {
+        "inconsistent_anatomy": 0,
+        "inconsistent_skin_color": 0,
+        "body_merging": 0
+    },
+    "Is the lowerbody deformed?": {
+        "normal_lowerbody": 0,
+        "deformed_lowerbody": 0,
+        "no_lowerbody_exist": 0
+    },
+    "the type of deformation (lowerbody)": {
+        "inconsistent_anatomy": 0,
+        "inconsistent_skin_color": 0,
+        "body_merging": 0
+    },
+    "Is the hand deformed?": {
+        "normal_hand": 0,
+        "deformed_hand": 0,
+        "no_hand_exist": 0
+    },
+    "Is the action deformed?": {
+        "normal_action": 0,
+        "deformed_action": 0,
+        "no_action_exist": 0
+    },
+    "Are the clothing and accessories structured normally?": {
+        "good_cloth_accessory": 0,
+        "bad_cloth_accessory": 0
+    },
+    "Are there any watermarks or issues with garbled text?": {
+        "no_watermarks": 0,
+        "have_watermarks": 0
+    },
+    "Does the image have any issues with black/white borders?": {
+        "no_borders_issues": 0,
+        "have_borders_issues": 0
+    },
+    "Does the image have any issues with a solid color background?": {
+        "no_solid_color_background": 0,
+        "have_solid_color_background": 0
+    }
+}
