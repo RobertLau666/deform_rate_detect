@@ -64,14 +64,14 @@ class DetectModel:
 def parse():
     parser = argparse.ArgumentParser(description='Description of auto labelling and scoring')
     
-    parser.add_argument('--test_image_dir_file', type=str, default='/dfs/comicai/chenyu.liu/Datasets/deform_rate/auto_labelling_scoring/test_images', help='test image directory')
+    parser.add_argument('--test_image_dir_file', type=str, default='test_images/', help='test image directory')
     parser.add_argument('--batch_size', type=int, default=40, help='detects the batch size of the data.')
     parser.add_argument('--max_infer_size', type=int, default=640, help='xx.')
     parser.add_argument('--conf_threshold', type=float, default=0.3, help='xx.')
     parser.add_argument('--iou_threshold', type=float, default=0.7, help='xx.')
     parser.add_argument('--_LABELS', type=str, default=['head', 'face'], help='xx.', nargs='+')
     parser.add_argument('--device', type=int, default=40, help='xx.')
-    parser.add_argument('--json_save_dir', type=str, default="./json/", help='xx.')
+    parser.add_argument('--score_save_dir', type=str, default='deform_rate_score/', help='xx.')
     
     args = parser.parse_args()
     return args
@@ -270,7 +270,9 @@ def record_json(test_image_names, probs_dict):
             weight_sum += weight_dict[key]
         score_dict["final_score"] = final_score / weight_sum
 
-        with open(os.path.join(args.json_save_dir, test_image_name + '.json'), "w") as file:
+        if not os.path.exists(args.score_save_dir):
+            os.makedirs(args.score_save_dir, exist_ok=True)
+        with open(os.path.join(args.score_save_dir, test_image_name + '.json'), "w") as file:
             file.write(json.dumps(score_dict, indent=4))
 
 
