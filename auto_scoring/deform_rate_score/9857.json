@@ -1,16 +1,16 @@
 {
     "probs_face_deformation": 0.18841171264648438,
-    "probs_hair_deformation": -1,
-    "probs_eyes_deformation": -1,
-    "probs_ear_deformation": -1,
+    "probs_hair_deformation": 0.5,
+    "probs_eyes_deformation": 0.5,
+    "probs_ear_deformation": 0.5,
     "probs_upperbody_deformation": 0.39170363545417786,
     "probs_lowerbody_deformation": 0.002511389320716262,
-    "probs_hand_deformation": -1,
+    "probs_hand_deformation": 0.5,
     "probs_action_deformation": 1.7659580464624014e-07,
-    "probs_clothing_and_accessories": -1,
-    "probs_watermarks": -1,
-    "probs_black_white_borders": -1,
-    "probs_solid_color_background": -1,
-    "probs_global_image_deformation": -1,
-    "final_score": -0.6679255859407839
+    "probs_clothing_and_accessories": 0.5,
+    "probs_watermarks": 0.5,
+    "probs_black_white_borders": 0.5,
+    "probs_solid_color_background": 0.5,
+    "probs_global_image_deformation": 0.5,
+    "final_score": 0.397291805363564
 }
